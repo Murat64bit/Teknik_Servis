@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1161a8df9e8b4bc3bb46f8f4e70de3ad" Name="Diagram1">
+        <EntityTypeShape EntityType="TeknikServisModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisModel.TBLARIZADETAY" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisModel.TBLCARI" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisModel.TBLDEPARTMAN" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisModel.TBLFATURABILGI" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisModel.TBLFATURADETAY" Width="1.5" PointX="7.5" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisModel.TBLGIDERLER" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisModel.TBLKATEGORI" Width="1.5" PointX="3.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisModel.TBLNOTLAR" Width="1.5" PointX="10.125" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisModel.TBLPERSONEL" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisModel.TBLURUN" Width="1.5" PointX="6" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisModel.TBLURUNHARAKET" Width="1.5" PointX="8.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisModel.TBLURUNKABUL" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TeknikServisModel.TBLURUNTAKIP" Width="1.5" PointX="8.25" PointY="14.25" IsExpanded="true" />
+        <AssociationConnector Association="TeknikServisModel.FK_TBLFATURABILGI_TBLCARI" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisModel.FK_TBLURUNHARAKET_TBLCARI" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisModel.FK_TBLURUNKABUL_TBLCARI" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisModel.FK_TBLPERSONEL_TBLDEPARTMAN" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisModel.FK_TBLFATURABILGI_TBLPERSONEL" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisModel.FK_TBLFATURADETAY_TBLFATURABILGI" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisModel.FK_TBLURUN_TBLKATEGORI" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisModel.FK_TBLURUNHARAKET_TBLPERSONEL" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisModel.FK_TBLURUNKABUL_TBLPERSONEL" ManuallyRouted="false" />
+        <AssociationConnector Association="TeknikServisModel.FK_TBLURUNHARAKET_TBLURUN" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="TeknikServisModel.TBLMESAJ" Width="1.5" PointX="10.375" PointY="3.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
